@@ -1,0 +1,1 @@
+"D:\Program Files (x86)\Tencent\微信web开发者工具\cli.bat" cloud functions deploy --e cloud1-7gw7m0k679be1a14 --n quickstartFunctions --r --project "D:\myupdateworkspace\WeChatProjects\kydemo" --report_start --report

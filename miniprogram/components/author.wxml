@@ -1,0 +1,6 @@
+<template name="author">
+  <view style="margin: 20rpx;" class="page-author">
+    <text style="background-color: rgba(0,0,0,0.05);margin: 0 20rpx;">转载</text>
+    <text class="index-desc" style="text-align:center;">By 槑头槑脑</text>
+  </view>
+</template>

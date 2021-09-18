@@ -1,0 +1,84 @@
+
+<!--pages/meng/detail/detail.wxml-->
+<import src="/components/author.wxml" />
+<!-- <audio src="{{musicinfo.src}}" poster="{{musicinfo.poster}}" name="{{musicinfo.name}}" author="{{musicinfo.author}}"></audio> -->
+
+<view class="detail_page">
+<view class="detail_title">这么多年，你是否读懂了哆啦A梦</view>
+<template is="author"></template>
+<image mode="widthFix" class="detail_img" src="{{imgsrc}}"></image>
+<view class="article_part">
+几乎每一个孩子都曾经在动漫作品中获得过梦想。有的渴望拥有自己的圣衣或者成为被守护的纱织，有的拿着棒棒糖当星月棒想变身美少女战士，还有的球场边围观“樱木花道”和“大空翼”，只为了能引起心仪的邻家男孩的注意，等来一声“上杉达也爱浅仓南”。
+</view>
+<view class="article_part"> 虽然不同孩子有自己不同的代入点，但有一个梦想大家都曾有过——<text style="color:#5F9CEF;"> “当我从自己的小房间里醒来，发现书桌的抽屉是打开的，面前站着一个哆啦A梦。”</text>
+ </view>
+ <view class="article_part lastpart">
+是的，这个蓝胖子是我们共同的梦。
+</view>
+<view style="position: relative;">
+    <image mode="widthFix" style="height: 100rpx;width: 100rpx;position: absolute;top: -100rpx;right: 50%;margin-right: -50rpx;" src="https://636c-cloud1-7gw7m0k679be1a14-1307431346.tcb.qcloud.la/%E8%BF%99%E4%B9%88%E5%A4%9A%E5%B9%B4%EF%BC%8C%E4%BD%A0%E6%98%AF%E5%90%A6%E8%AF%BB%E6%87%82%E4%BA%86%E5%93%86%E5%95%A6A%E6%A2%A6/lingdang.webp?sign=f24e33beb4aacfcb91db519cd6e4d864&t=1631949892"></image>
+</view>
+<view class="detail_second_title">梦想的口袋，揣着我们想要的童年</view>
+
+<view class="article_part">
+小时候总是想，如果我有任意门，就能去任何地方；如果我有竹蜻蜓，就可以随时随刻飞翔；如果我有时光机，就可以回到过去或者走向未来……我们的梦想都装在哆啦A梦的口袋里，无数的可能性让人神往。
+</view>
+<view class="article_part">
+但长大之后再看哆啦A梦，就会发现他并不是一个万能工具匣子那么简单。他其实有一万种方法给大雄直接开挂，既可以用一块记忆面包让大雄直升东京大学，也可以用时光机在历史和现实间反复横跳让大雄避开所有潜在的坑，甚至随便提供两个道具让大雄长期当代理商就能走上人生巅峰……但哆啦A梦并没有这么做。无数的细节都告诉我们，哆啦A梦的到来并不是想直接给大雄一个不用努力就能获得成功的人生，他的到来是为了给大雄足够的支持——鼓励他相信自己、更勇敢、更坚强、最终靠自己改变命运。
+</view>
+<image class="detail_img" mode="widthFix" src="https://636c-cloud1-7gw7m0k679be1a14-1307431346.tcb.qcloud.la/%E8%BF%99%E4%B9%88%E5%A4%9A%E5%B9%B4%EF%BC%8C%E4%BD%A0%E6%98%AF%E5%90%A6%E8%AF%BB%E6%87%82%E4%BA%86%E5%93%86%E5%95%A6A%E6%A2%A6/duola3.webp?sign=1c7afbeff464f6e20e0f5fc177d4bfac&t=1631954435"></image>
+<view class="article_part">
+哆啦A梦系列动画电影被命名为《哆啦A梦：伴我同行》，电影的题目，就是他和大雄关系的完美注解。
+</view>
+
+<view class="article_part">
+事实上，哆啦A梦的确做到了。于是，大雄和两个童年死党虽然日常打打闹闹但在危险时刻却能并肩作战，和静香这样的青梅竹马能保持长久的友谊并且最终取得女神的青睐，在长大之后也能在结婚的前夜追忆美好的往昔，和儿时的伙伴不醉不归……
+</view>
+
+
+<view class="article_part">
+哆啦A梦的陪伴，让大雄拥有责任感的同时保持了温暖的人格，像大雄老丈人评价的一样：“大雄会因为别人的喜悦而高兴，会因为别人的不幸而难过。” 这也是这部动漫一直带给我们治愈感的原因。
+</view>
+
+<view class="article_part lastpart">
+所以，儿时的我们其实并没有真正读懂哆啦A梦，很多东西在回首往昔时才明白，藤本弘先生向我们传递了怎么的价值观。
+</view>
+<view style="position: relative;">
+    <image mode="widthFix" style="height: 100rpx;width: 100rpx;position: absolute;top: -100rpx;right: 50%;margin-right: -50rpx;" src="https://636c-cloud1-7gw7m0k679be1a14-1307431346.tcb.qcloud.la/%E8%BF%99%E4%B9%88%E5%A4%9A%E5%B9%B4%EF%BC%8C%E4%BD%A0%E6%98%AF%E5%90%A6%E8%AF%BB%E6%87%82%E4%BA%86%E5%93%86%E5%95%A6A%E6%A2%A6/lingdang.webp?sign=f24e33beb4aacfcb91db519cd6e4d864&t=1631949892"></image>
+</view>
+<view class="detail_second_title">哆啦A梦的梦想，比你想象的更多</view>
+
+
+<view class="article_part">
+即便你没有刻意去思考，也能感受到《哆啦A梦》在告诉你什么。
+</view>
+
+
+
+<view class="article_part">
+无论是千百集的小镇日常还是十几集的大长篇，哆啦A梦在是与非面前总是有极其清晰的善恶立场；为了保护自己的宠物，大雄在白垩纪一穷二白的时候拒绝了偷猎者提出的回家的诱惑；《云之王国》里的动物行星为了维护异星的独立与自主，提出了众生平等的伟大构想；在《海底鬼岩城》中，你甚至会迷上那辆具有骑士精神的旅行车。
+</view>
+<image mode="widthFix" class="detail_img" src="https://636c-cloud1-7gw7m0k679be1a14-1307431346.tcb.qcloud.la/%E8%BF%99%E4%B9%88%E5%A4%9A%E5%B9%B4%EF%BC%8C%E4%BD%A0%E6%98%AF%E5%90%A6%E8%AF%BB%E6%87%82%E4%BA%86%E5%93%86%E5%95%A6A%E6%A2%A6/duola4.webp?sign=2357f578ec019be487eec991e5f21284&t=1631954555"></image>
+<view  class="article_part lastpart">
+《哆啦A梦》的世界观从来不局限在儿童的角度，或者说，藤本弘老师一直就把孩子们当成有独立主见和思考深度的成人平等对待。这也正是《哆啦A梦》一直能够影响几代人的原因——从善恶选择到文明冲突到环境保护，藤本弘先生总是以人性为出发点，润物细无声的传递出积极向上的价值观，让每一个读者都燃起希望与梦想的火种。
+</view>
+<view style="position: relative;">
+    <image mode="widthFix" style="height: 100rpx;width: 100rpx;position: absolute;top: -100rpx;right: 50%;margin-right: -50rpx;" src="https://636c-cloud1-7gw7m0k679be1a14-1307431346.tcb.qcloud.la/%E8%BF%99%E4%B9%88%E5%A4%9A%E5%B9%B4%EF%BC%8C%E4%BD%A0%E6%98%AF%E5%90%A6%E8%AF%BB%E6%87%82%E4%BA%86%E5%93%86%E5%95%A6A%E6%A2%A6/lingdang.webp?sign=f24e33beb4aacfcb91db519cd6e4d864&t=1631949892"></image>
+</view>
+<view class="detail_second_title">长大之后，我想为这份梦想做点什么</view>
+
+<view class="article_part">
+    哆啦A梦来自未来，而那些看哆啦A梦长大的孩子，也同样要守护着自己的未来。
+</view>
+<view class="article_part">
+每当听到那首熟悉的主题曲时，就知道那些少年们的梦想还在延续，他们依然在未知的远方创造着新的传奇。与此同时，也会随着年龄的增长无数次想象，长大之后的大雄是什么样，长大之后的静香是什么样。当时就拉着小提琴、温婉可人又敢于为朋友两肋插刀的静香，在为人妻为人母之后，又会带来怎样的温暖故事。
+</view>
+<view class="article_part">
+想来，也许就是这样的画面。
+</view>
+
+<view class="article_part">
+当年怀揣着“拥有一个哆啦A梦”梦想的孩子，现在，已经开始用行动帮助哆啦A梦实现他的梦想。因为，那是来自未来的哆啦A梦和即将走向未来的我们，共同的愿景和希望。
+</view>
+<image mode="aspectFit" src="https://636c-cloud1-7gw7m0k679be1a14-1307431346.tcb.qcloud.la/%E8%BF%99%E4%B9%88%E5%A4%9A%E5%B9%B4%EF%BC%8C%E4%BD%A0%E6%98%AF%E5%90%A6%E8%AF%BB%E6%87%82%E4%BA%86%E5%93%86%E5%95%A6A%E6%A2%A6/duola2.webp?sign=c220ed80c221d235608e21d9d6398cbb&t=1631953231"></image>
+</view>

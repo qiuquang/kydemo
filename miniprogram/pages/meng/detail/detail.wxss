@@ -1,0 +1,5 @@
+/* pages/meng/detail/detail.wxss */
+
+.lastpart{
+    margin-bottom: 150rpx;
+}

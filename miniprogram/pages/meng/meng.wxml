@@ -1,0 +1,19 @@
+<!--pages/meng/meng.wxml-->
+<view class="mainPage">
+<view>
+    <view wx:for="{{articles}}" wx:key="*this" class="event-link">        
+    <view  bindtap="showDetail" class="event-img">
+      <image style="border-radius: 5px;" mode="widthFix" src="{{item.imgsrc}}" data-imgsrc="{{item.imgsrc}}"></image>
+    </view>
+    <view class="event-content">
+      <view class="event-title">{{item.title}}</view>
+      <view class="event-desc">{{item.desc}}</view>
+      <view class="event-box">
+        <view class="event-address">{{item.author}}</view>
+        <view class="event-time">{{item.date
+        }}</view>
+      </view>
+    </view>
+  </view>
+</view>
+</view>

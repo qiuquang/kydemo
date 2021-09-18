@@ -1,0 +1,2 @@
+<!--pages/fusheng/fusheng.wxml-->
+<audio src="{{musicinfo.src}}" poster="{{musicinfo.poster}}" name="{{musicinfo.name}}" author="{{musicinfo.author}}" controls></audio>

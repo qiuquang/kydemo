@@ -1,0 +1,12 @@
+/* pages/home/home.wxss */
+page{
+    height: 100%;
+}
+.container{
+    height: 100%;
+    padding-bottom: 25rpx;
+}
+.welcome{
+    color: red;
+    background-color: aqua;
+}

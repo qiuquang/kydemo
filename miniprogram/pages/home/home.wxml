@@ -1,0 +1,8 @@
+<!--pages/home/home.wxml-->
+
+<view class="container">
+    <image src="https://636c-cloud1-7gw7m0k679be1a14-1307431346.tcb.qcloud.la/dream.gif?sign=e1d1e652b284591275d8a44a07d51470&t=1631945412" data-type="meng" bindtap="goToPage"></image>
+    <image src="https://636c-cloud1-7gw7m0k679be1a14-1307431346.tcb.qcloud.la/%E6%B5%AE%E7%94%9F/mei.gif?sign=b6335e99ec7174975367f8545ee86df1&t=1631955932" data-type="fusheng" bindtap="goToPage"></image>
+<!-- <button class="welcome" open-type="getUserInfo" bindgetuserinfo="getUserInformation">欢迎进入青岛凯亚</button> -->
+
+</view>
